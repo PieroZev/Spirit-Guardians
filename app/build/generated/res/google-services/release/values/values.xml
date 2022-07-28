@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">781479531799-556jat7n96n57nkaqv436fg03ig8p3t4.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">781479531799</string>
+    <string name="google_api_key" translatable="false">AIzaSyCaaIXLME6ZPqQpx_QhQSQSpENjUopX8SU</string>
+    <string name="google_app_id" translatable="false">1:781479531799:android:5c0771b19202cf20c75352</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCaaIXLME6ZPqQpx_QhQSQSpENjUopX8SU</string>
+    <string name="google_storage_bucket" translatable="false">spiritguardiansdb.appspot.com</string>
+    <string name="project_id" translatable="false">spiritguardiansdb</string>
+</resources>

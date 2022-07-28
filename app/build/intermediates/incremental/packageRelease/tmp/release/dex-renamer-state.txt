@@ -1,0 +1,4 @@
+#Mon Jul 25 13:34:24 COT 2022
+base.0=C\:\\Users\\PIERO\\Documents\\spirit-guardians-android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
