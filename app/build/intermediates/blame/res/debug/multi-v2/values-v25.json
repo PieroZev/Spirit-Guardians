@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
                     "source": "C:\\Users\\PIERO\\.gradle\\caches\\transforms-2\\files-2.1\\820a52f130244648f4d0301e279c6f91\\appcompat-1.3.1\\res\\values-v25\\values-v25.xml",

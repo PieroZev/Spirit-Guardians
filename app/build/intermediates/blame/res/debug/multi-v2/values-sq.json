@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "outputFile": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
                     "source": "C:\\Users\\PIERO\\.gradle\\caches\\transforms-2\\files-2.1\\82d28fe7a581a6d91ecd327319042043\\jetified-play-services-basement-18.0.0\\res\\values-sq\\values.xml",

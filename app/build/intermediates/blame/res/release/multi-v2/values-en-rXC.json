@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\PIERO\\.gradle\\caches\\transforms-2\\files-2.1\\133408e30cd3ea95bae598042f148a89\\browser-1.4.0\\res\\values-en-rXC\\values-en-rXC.xml",

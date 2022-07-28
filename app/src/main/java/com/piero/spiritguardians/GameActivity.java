@@ -301,7 +301,7 @@ public class GameActivity extends AppCompatActivity {
                 if (selected == card1) {
                     if (cardAction(cardPosition1)){
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition1).getTitle(), Toast.LENGTH_SHORT).show();
-                        cardPosition1 = turn + 5;
+                        cardPosition1 = Math.round((float) turn/2) + 5;
                         turn++;
                         card1.setImageResource(deck_self.get(cardPosition1).getImage());
                         endTurnAction();
@@ -310,7 +310,7 @@ public class GameActivity extends AppCompatActivity {
                 else if (selected == card2) {
                     if(cardAction(cardPosition2)) {
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition2).getTitle(), Toast.LENGTH_SHORT).show();
-                        cardPosition2 = turn + 5;
+                        cardPosition2 = Math.round((float) turn/2) + 5;
                         turn++;
                         card2.setImageResource(deck_self.get(cardPosition2).getImage());
                         endTurnAction();
@@ -319,7 +319,7 @@ public class GameActivity extends AppCompatActivity {
                 else if (selected == card3) {
                     if(cardAction(cardPosition3)) {
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition3).getTitle(), Toast.LENGTH_SHORT).show();
-                        cardPosition3 = turn + 5;
+                        cardPosition3 = Math.round((float) turn/2) + 5;
                         turn++;
                         card3.setImageResource(deck_self.get(cardPosition3).getImage());
                         endTurnAction();
@@ -328,7 +328,7 @@ public class GameActivity extends AppCompatActivity {
                 else if (selected == card4) {
                     if(cardAction(cardPosition4)) {
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition4).getTitle(), Toast.LENGTH_SHORT).show();
-                        cardPosition4 = turn + 5;
+                        cardPosition4 = Math.round((float) turn/2) + 5;
                         turn++;
                         card4.setImageResource(deck_self.get(cardPosition4).getImage());
                         endTurnAction();
@@ -337,7 +337,7 @@ public class GameActivity extends AppCompatActivity {
                 else if (selected == card5) {
                     if(cardAction(cardPosition5)) {
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition5).getTitle(), Toast.LENGTH_SHORT).show();
-                        cardPosition5 = turn + 5;
+                        cardPosition5 = Math.round((float) turn/2) + 5;
                         turn++;
                         card5.setImageResource(deck_self.get(cardPosition5).getImage());
                         endTurnAction();
@@ -358,10 +358,10 @@ public class GameActivity extends AppCompatActivity {
 
     public void onClickUpdate(View view){
         try {
-                    if (player_self.getCastle_points() == 0 || player_opponent.getCastle_points() == 0 || player_self.getCastle_points() == 100 || player_opponent.getCastle_points() == 100) {
+                    if (player_self.getCastle_points() <= 0 || player_opponent.getCastle_points() <= 0 || player_self.getCastle_points() >= 100 || player_opponent.getCastle_points() >= 100) {
                         GuestNameDialogFragment dialog = new GuestNameDialogFragment();
                         dialog.setContext(context);
-                        if (player_self.getCastle_points() == 0 || player_opponent.getCastle_points() == 100) {
+                        if (player_self.getCastle_points() <= 0 || player_opponent.getCastle_points() >= 100) {
                             dialog.setMessage("Juego Terminado: Ganador " + player_opponent.getName());
                         } else dialog.setMessage("Juego Terminado: Ganador " + player_self.getName());
                         dialog.show(getSupportFragmentManager(), "game");

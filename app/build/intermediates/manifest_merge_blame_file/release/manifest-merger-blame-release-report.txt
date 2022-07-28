@@ -1,14 +1,14 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.piero.spiritguardians"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="2"
+5    android:versionName="1.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml
+8-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml
+9-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:23:5-67
@@ -27,54 +27,54 @@
 15-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
 16
 17    <application
-17-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:5:5-26:19
+17-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:5:5-26:19
 18        android:allowBackup="true"
-18-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.5.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\15f0efbd1b9e401c403e181320e0999d\core-1.5.0\AndroidManifest.xml:24:18-86
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:7:9-43
+20-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:7:9-43
 21        android:label="@string/app_name"
-21-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:8:9-41
+21-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:8:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:9:9-54
+22-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:9:9-54
 23        android:supportsRtl="true"
-23-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:10:9-35
+23-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:10:9-35
 24        android:theme="@style/AppTheme" >
-24-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:11:9-40
+24-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:11:9-40
 25        <activity android:name="com.piero.spiritguardians.LoginActivity" />
-25-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:12:9-60
-25-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:12:19-48
+25-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:9-60
+25-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:19-48
 26        <activity android:name="com.piero.spiritguardians.RegisterActivity" />
-26-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:13:9-54
-26-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:13:19-51
+26-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:9-54
+26-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:19-51
 27        <activity android:name="com.piero.spiritguardians.GameActivity" />
-27-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:14:9-50
-27-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:14:19-47
+27-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:9-50
+27-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:19-47
 28        <activity android:name="com.piero.spiritguardians.DeckActivity" />
-28-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:15:9-50
-28-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:15:19-47
+28-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:9-50
+28-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:19-47
 29        <activity android:name="com.piero.spiritguardians.CreateRoomActivity" />
-29-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:16:9-56
-29-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:16:19-53
+29-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:9-56
+29-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:19-53
 30        <activity android:name="com.piero.spiritguardians.RoomsActivity" />
-30-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:17:9-51
-30-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:17:19-48
+30-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:9-51
+30-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:19-48
 31        <activity android:name="com.piero.spiritguardians.StartMenu" />
-31-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:18:9-47
-31-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:18:19-44
+31-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:9-47
+31-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:19-44
 32        <activity android:name="com.piero.spiritguardians.MainActivity" >
-32-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:19:9-25:20
-32-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:19:19-47
+32-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:9-25:20
+32-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:19-47
 33            <intent-filter>
-33-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:20:13-24:29
+33-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:20:13-24:29
 34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:21:17-69
-34-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:21:25-66
+34-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:21:17-69
+34-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:21:25-66
 35
 36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:23:17-77
-36-->C:\Users\PIERO\Documents\spirit-guardians-android\app\src\main\AndroidManifest.xml:23:27-74
+36-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:23:17-77
+36-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:23:27-74
 37            </intent-filter>
 38        </activity>
 39        <activity

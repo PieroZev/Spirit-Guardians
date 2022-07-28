@@ -100,7 +100,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
             final int userCode = Integer.parseInt(parsedString[3].trim());
 
             String preMatchCode = parsedString[5].trim();
-            final String matchCode = preMatchCode.substring(0, preMatchCode.length() - 1);
+            final String matchCode = preMatchCode.substring(0, preMatchCode.length() - 1).split("]")[0];
         /*dataSet[0] = "Sala";
         dataSet[1] = "R10010";
         dataSet[2] = "Sala123";
