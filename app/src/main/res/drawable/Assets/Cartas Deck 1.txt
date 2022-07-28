@@ -1,0 +1,20 @@
+3 ataque 3 					ya 	Coste 5
+3 escudo 5 					ya 	Coste 3
+2 obreros +1 					ya 	Coste 8
+2 soldados +1 					ya 	Coste 8
+2 magia +1 					ya 	Coste 8
+2 Economía +10 					ya 	Coste 5
+1 Maldición (+1 todo) 				ya 	Coste 25
+3 Ladrón (-5 +5 todo) 				ya 	Coste 12
+2 ataque 5 					ya 	Coste 8
+2 ataque 10 					ya 	Coste 15
+2 escudo 10 					ya 	Coste 5
+3 Bancarrota (-10 todo) 			ya 	Coste 15
+3 muralla (def +20) 				ya 	Coste 15
+3 quita muralla (+8 castillo -16 muralla) 	ya 	Coste 10
+2 Castillo (def +24) 				ya 	Coste 20
+2 Muerte (atk +28) 				ya 	Coste 20
+2 Dragón (atk +25) 				ya 	Coste 20
+1 Babilonia (def +32) 				ya 	Coste 25
+
+Total: 40 cartas

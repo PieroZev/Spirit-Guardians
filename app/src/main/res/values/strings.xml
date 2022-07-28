@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Spirit Guardians</string>
+    <string name="login">Login</string>
+    <string name="start">Inicio</string>
+    <string name="forgot">¿Olvidaste la contraseña?</string>
+    <string name="register">Registrarse</string>
+    <string name="create">Crear sala</string>
+    <string name="join">Unirse a sala</string>
+    <string name="deck">Ir al deck</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="room_name">Nombre de la sala</string>
+
+</resources>

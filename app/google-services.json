@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781479531799",
+    "project_id": "spiritguardiansdb",
+    "storage_bucket": "spiritguardiansdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781479531799:android:5c0771b19202cf20c75352",
+        "android_client_info": {
+          "package_name": "com.piero.spiritguardians"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781479531799-556jat7n96n57nkaqv436fg03ig8p3t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaaIXLME6ZPqQpx_QhQSQSpENjUopX8SU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781479531799-556jat7n96n57nkaqv436fg03ig8p3t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
