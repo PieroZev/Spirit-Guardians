@@ -44,11 +44,7 @@ public class GameActivity extends AppCompatActivity {
     private ArrayList<Card> deck_self = new ArrayList<>();
     private ArrayList<Card> deck_opponent = new ArrayList<>();
 
-    private int usersLength;
     private String username;
-    private int roomLength;
-    private String[] usernames;
-    private int[] usercodes;
 
     private int cardPosition1 = 0;
     private int cardPosition2 = 1;
@@ -94,48 +90,6 @@ public class GameActivity extends AppCompatActivity {
 
     Timer timer = new Timer();
 
-    /*@Override
-    protected void onPause() {
-        super.onPause();
-
-        String roomCode = getIntent().getStringExtra("roomCode");
-
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("room/" + roomCode);
-
-        // Read from the database
-        myRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                List<Object> value = (List<Object>) dataSnapshot.getValue();
-                int playerNumber = 0;
-                if(value != null){
-                if(value.size() >= 5) playerNumber =  Integer.parseInt(value.get(4).toString());}
-                else playerNumber = 0;
-                Map<String, Object> updates = new HashMap<>();
-                updates.put("0", getIntent().getStringExtra("roomName"));
-                updates.put("1", getIntent().getStringExtra("roomCode"));
-                updates.put("2", getIntent().getStringExtra("password"));
-                updates.put("3", getIntent().getIntExtra("userCode", 0));
-                updates.put("4", playerNumber-1);
-                updates.put("5", getIntent().getStringExtra("matchCode"));
-                myRef.updateChildren(updates);
-
-                if((playerNumber-1) <= 0){
-                    myRef.removeValue();
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-                Log.w(TAG, "Failed to read value.", error.toException());
-            }
-        });
-    }*/
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -180,9 +134,9 @@ public class GameActivity extends AppCompatActivity {
 
         //Setting starting values for player 1
         username = getIntent().getStringExtra("guestName");
-        Player player1_default = new Player("jugador1", "Deck 1",25,0,2,2,2,10,10,10,10,true);
+        Player player1_default = new Player("", "Deck 1",25,0,2,2,2,10,10,10,10,true);
         //Setting starting values for player 2
-        Player player2_default = new Player("jugador2","Deck 1",25,0,2,2,2,10,10,10,10,false);
+        Player player2_default = new Player("","Deck 1",25,0,2,2,2,10,10,10,10,false);
 
         //If Player entering the room is Player2, asign Player2
         //Else asign Player1
@@ -224,51 +178,17 @@ public class GameActivity extends AppCompatActivity {
         deck_opponent = new Deck1().getDeck();
         Collections.shuffle(deck_self);
         Collections.shuffle(deck_opponent);
-        /*player_self.setDeck(player_self.getDeck());
-        player_opponent.setDeck(player_opponent.getDeck());*/
         //Assigning the img to every card in your starting hand
         card1.setImageResource(deck_self.get(0).getImage());
         card2.setImageResource(deck_self.get(1).getImage());
         card3.setImageResource(deck_self.get(2).getImage());
         card4.setImageResource(deck_self.get(3).getImage());
         card5.setImageResource(deck_self.get(4).getImage());
-        //Get the Usercode from Room and compare it to Usercode from User
-        //if Usercode equals then Player1.isFirstPlayer = true
-        /*DatabaseReference myUserRef = FirebaseDatabase.getInstance().getReference("users");
-        myUserRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                Map<String, Object> value = (Map<String, Object>) dataSnapshot.getValue();
-                usersLength = value.size();
-                usernames = new String[usersLength];
-                usercodes = new int[usersLength];
-                for(int i=0;i<usersLength;i++){
-                    usernames[i] = value.toString().split("=")[i + 1].substring(1).split(",")[1];
-                    usercodes[i] = Integer.parseInt(value.toString().split("=")[i + 1].substring(1).split(",")[0].trim());
-                    if(usercodes[i] == getIntent().getIntExtra("userCode", 0)){
-                        //Get the username of Player1 and Player2
-                        if(username.equals(usernames[i])) {
-                            player1.setFirstPlayer(true);
-                        }
-                        else {
-                            player1.setFirstPlayer(false);
-                            player1.setName(username);
-                            player2.setName(usernames[i]);
-                        }
-                    }
-                }
-            }
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-                Log.w(TAG, "Failed to read value.", error.toException());
-            }
-        });*/
 
         player1Name.setText(player_self.getName());
         player2Name.setText(player_opponent.getName());
+
+        updateTurn();
     }
 
     View selected;
@@ -356,7 +276,12 @@ public class GameActivity extends AppCompatActivity {
         }
     }
 
-    public void onClickUpdate(View view){
+    //Verifies whether is your turn or the opponent's, also if the game is over.
+    public void updateTurn(){
+
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
         try {
                     if (player_self.getCastle_points() <= 0 || player_opponent.getCastle_points() <= 0 || player_self.getCastle_points() >= 100 || player_opponent.getCastle_points() >= 100) {
                         GuestNameDialogFragment dialog = new GuestNameDialogFragment();
@@ -365,22 +290,29 @@ public class GameActivity extends AppCompatActivity {
                             dialog.setMessage("Juego Terminado: Ganador " + player_opponent.getName());
                         } else dialog.setMessage("Juego Terminado: Ganador " + player_self.getName());
                         dialog.show(getSupportFragmentManager(), "game");
-                        timer.cancel();//stop the timer
+                        timer.cancel();
                     } else
                         calculateTurnAndPlayerstats();
                     //if it's player turn or else if it's not player turn
-                        if((player_self.isFirstPlayer() && turn % 2 !=0) || (!player_self.isFirstPlayer() && turn % 2 == 0)){
-                            turno.setText("tu turno "+turn);
-                            skip.setVisibility(View.VISIBLE);
-                        } else {
-                            turno.setText("turno oponente "+turn);
-                            skip.setVisibility(View.GONE);
-                        }
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    // Stuff that updates the UI
+                    if((player_self.isFirstPlayer() && turn % 2 !=0) || (!player_self.isFirstPlayer() && turn % 2 == 0)){
+                        turno.setText("tu turno "+turn);
+                        skip.setVisibility(View.VISIBLE);
+                    } else {
+                        turno.setText("turno oponente "+turn);
+                        skip.setVisibility(View.GONE);
+                    }
+                }
+            });
         }catch(Exception e){
             e.printStackTrace();
         }
+            }
+        }, 0, 1000);
     }
-
 
     public boolean cardAction(int cardPosition){
         switch (deck_self.get(cardPosition).getCode()){
@@ -542,21 +474,17 @@ public class GameActivity extends AppCompatActivity {
         //Update the player1 stats
         hp1.setText(player_self.getCastle_points()+"");
         fence1.setText(player_self.getFence_points()+"");
-        worker1.setText("Obre " + player_self.getWorker());
-        soldier1.setText("Sol " + player_self.getSoldier());
-        magic1.setText("Magia " + player_self.getMagic());
-        gold1.setText("Oro " + player_self.getGold());
-        castle1.setMaxHeight(castleHeight*(player_self.getCastle_points()/100));
-        castle1.setMaxWidth(castleWidth*(player_self.getCastle_points()/100));
+        worker1.setText(player_self.getWorker()+"");
+        soldier1.setText(player_self.getSoldier()+"");
+        magic1.setText(player_self.getMagic()+"");
+        gold1.setText(player_self.getGold()+"");
         //Update the player2 stats
         hp2.setText(player_opponent.getCastle_points()+"");
         fence2.setText(player_opponent.getFence_points()+"");
-        worker2.setText("Obre " + player_opponent.getWorker());
-        soldier2.setText("Sol " + player_opponent.getSoldier());
-        magic2.setText("Magia " + player_opponent.getMagic());
-        gold2.setText("Oro " + player_opponent.getGold());
-        castle2.setMaxHeight(castleHeight*(player_opponent.getCastle_points()/100));
-        castle2.setMaxWidth(castleWidth*(player_opponent.getCastle_points()/100));
+        worker2.setText(player_opponent.getWorker()+"");
+        soldier2.setText(player_opponent.getSoldier()+"");
+        magic2.setText(player_opponent.getMagic()+"");
+        gold2.setText(player_opponent.getGold()+"");
 
         updateMatch(player_self, player_opponent, turn);
     }
@@ -606,30 +534,30 @@ public class GameActivity extends AppCompatActivity {
                         if (player_self.isFirstPlayer()) {
                             player_self = mapToPlayer(value, 0, player_self);
                             player_opponent = mapToPlayer(value, 1, player_opponent);
+                            if(!player_self.getName().equals("")) player1Name.setText(player_self.getName());
+                            if(!player_opponent.getName().equals("")) player2Name.setText(player_opponent.getName());
                         } else {
                             player_self = mapToPlayer(value, 1, player_self);
                             player_opponent = mapToPlayer(value, 0, player_opponent);
+                            if(!player_self.getName().equals("")) player2Name.setText(player_self.getName());
+                            if(!player_opponent.getName().equals("")) player1Name.setText(player_opponent.getName());
                         }
                     }
 
                     //Update the player1 stats
                     hp1.setText(player_self.getCastle_points()+"");
                     fence1.setText(player_self.getFence_points()+"");
-                    worker1.setText("Obre " + player_self.getWorker());
-                    soldier1.setText("Sol " + player_self.getSoldier());
-                    magic1.setText("Magia " + player_self.getMagic());
-                    gold1.setText("Oro " + player_self.getGold());
-                    castle1.setMaxHeight(castleHeight*(player_self.getCastle_points()/100));
-                    castle1.setMaxWidth(castleWidth*(player_self.getCastle_points()/100));
+                    worker1.setText(player_self.getWorker()+"");
+                    soldier1.setText(player_self.getSoldier()+"");
+                    magic1.setText(player_self.getMagic()+"");
+                    gold1.setText(player_self.getGold()+"");
                     //Update the player2 stats
                     hp2.setText(player_opponent.getCastle_points()+"");
                     fence2.setText(player_opponent.getFence_points()+"");
-                    worker2.setText("Obre " + player_opponent.getWorker());
-                    soldier2.setText("Sol " + player_opponent.getSoldier());
-                    magic2.setText("Magia " + player_opponent.getMagic());
-                    gold2.setText("Oro " + player_opponent.getGold());
-                    castle2.setMaxHeight(castleHeight*(player_opponent.getCastle_points()/100));
-                    castle2.setMaxWidth(castleWidth*(player_opponent.getCastle_points()/100));
+                    worker2.setText(player_opponent.getWorker()+"");
+                    soldier2.setText(player_opponent.getSoldier()+"");
+                    magic2.setText(player_opponent.getMagic()+"");
+                    gold2.setText(player_opponent.getGold()+"");
                 }
 
                 @Override

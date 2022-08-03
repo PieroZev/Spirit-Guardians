@@ -59,9 +59,9 @@ public class LoginActivity extends AppCompatActivity {
                 usernames = new String[usersLength];
                 emails = new String[usersLength];
                 for(int i=0;i<usersLength;i++){
-                    usernames[i] = value.toString().split("=")[i + 1].substring(1).split(",")[1];
-                    String emailsConCorchete = value.toString().split("=")[i + 1].substring(1).split(",")[2].trim();
-                    emails[i] = emailsConCorchete.substring(0, emailsConCorchete.length()-1);
+                    usernames[i] = value.toString().split("=")[i + 1].substring(1).split(",")[1].trim();
+                    emails[i] = value.toString().split("=")[i + 1].substring(1).split(",")[2].trim().split("]")[0];
+                    System.out.println(usernames[i] +" "+ emails[i]);
                 }
             }
 
@@ -92,11 +92,8 @@ public class LoginActivity extends AppCompatActivity {
                                         for (int i = 0; i < usersLength; i++) {
                                             if (emails[i].equals(email.getText().toString()))
                                                 username = usernames[i];
-                                            else
-                                                username = "Invitado" + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random());
-                                        }
-                                        if (user.getDisplayName() != null)
-                                            username = user.getDisplayName();
+                                            }
+                                        if(username.equals("")) username = "Invitado" + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random());
                                         //Send to Menu
                                         Intent i = new Intent(LoginActivity.this, StartMenu.class);
                                         i.putExtra("guestName", username);

@@ -27,8 +27,7 @@ import static android.content.ContentValues.TAG;
 
 public class RoomsActivity extends AppCompatActivity {
 
-    private int roomLength;
-    private Map<String, List<Object>> mDataset;
+    private ArrayList<Room> mDataset = new ArrayList<>();
     private Context context = this;
 
     private RecyclerView mRecyclerView;
@@ -49,7 +48,7 @@ public class RoomsActivity extends AppCompatActivity {
             String username = getIntent().getStringExtra("guestName");
 
             FirebaseDatabase database = FirebaseDatabase.getInstance();
-            DatabaseReference myRef = database.getReference("room");
+            DatabaseReference myRef = database.getReference("rooms");
 
             // Read from the database
             myRef.addValueEventListener(new ValueEventListener() {
@@ -57,27 +56,15 @@ public class RoomsActivity extends AppCompatActivity {
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     // This method is called once with the initial value and again
                     // whenever data at this location is updated.
-                    Map<String, List<Object>> value = (Map<String, List<Object>>) dataSnapshot.getValue();
-                    String valueString = " ";
-                    if (value != null){
-                        roomLength = value.size();
-                        valueString = value.toString();
-                    }
-                    else {
-                        roomLength = 0;
-                        valueString = " ";
+                    for (DataSnapshot roomSnapshot: dataSnapshot.getChildren()) {
+                        // TODO: rooms are full then remove
+                        Room room = roomSnapshot.getValue(Room.class);
+                        String roomKey = roomSnapshot.getKey();
+                        if (room.getPlayerNumber() != 1){
+                            myRef.child(roomKey).removeValue();
+                        }else mDataset.add(room);
                     }
 
-                    if (roomLength > 0)
-                        for (int i = 0; i < roomLength - 1; i++) {
-                            String[] parsedString = valueString.split("=")[i + 1].substring(1).split(",");
-                            String key = parsedString[1].trim();
-                            String playerNumberString = parsedString[4].trim();
-                            int playerNumber = Integer.parseInt(playerNumberString);
-                            if (playerNumber != 1)
-                                myRef.child("key").removeValue();
-                        }
-                    mDataset = value;
                     // BEGIN_INCLUDE(initializeRecyclerView)
                     mRecyclerView = findViewById(R.id.recyclerView);
 

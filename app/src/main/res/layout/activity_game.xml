@@ -6,31 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".GameActivity">
 
-    <ImageView
-        android:id="@+id/img_castle1"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginTop="8dp"
-        android:background="#03A9F4"
-        android:contentDescription="Castillo 1"
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:srcCompat="@drawable/castlefont" />
+        app:layout_constraintStart_toStartOf="parent">
 
-    <ImageView
-        android:id="@+id/img_castle2"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginBottom="8dp"
-        android:background="#F44336"
-        android:contentDescription="Castillo 2"
-        app:layout_constraintBottom_toTopOf="@+id/guideline"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/castlefont" />
+        <ImageView
+            android:id="@+id/img_card1"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/card1"
+            android:onClick="onClickCard"
+            app:srcCompat="@drawable/cartaparteposterior" />
+
+        <ImageView
+            android:id="@+id/img_card2"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/card2"
+            android:onClick="onClickCard"
+            app:srcCompat="@drawable/cartaparteposterior" />
+
+        <ImageView
+            android:id="@+id/img_card3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/card3"
+            android:onClick="onClickCard"
+            app:srcCompat="@drawable/cartaparteposterior" />
+
+        <ImageView
+            android:id="@+id/img_card4"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/card4"
+            android:onClick="onClickCard"
+            app:srcCompat="@drawable/cartaparteposterior" />
+
+        <ImageView
+            android:id="@+id/img_card5"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/card5"
+            android:onClick="onClickCard"
+            app:srcCompat="@drawable/cartaparteposterior" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -46,7 +71,7 @@
             android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:contentDescription="carta 1 oponente"
+            android:contentDescription="@string/card1_opponent"
             app:srcCompat="@drawable/cartaparteposterior" />
 
         <ImageView
@@ -54,7 +79,7 @@
             android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:contentDescription="carta 2 oponente"
+            android:contentDescription="@string/card2_opponent"
             app:srcCompat="@drawable/cartaparteposterior" />
 
         <ImageView
@@ -62,7 +87,7 @@
             android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:contentDescription="carta 3 oponente"
+            android:contentDescription="@string/card3_opponent"
             app:srcCompat="@drawable/cartaparteposterior" />
 
         <ImageView
@@ -70,7 +95,7 @@
             android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:contentDescription="carta 4 oponente"
+            android:contentDescription="@string/card4_opponent"
             app:srcCompat="@drawable/cartaparteposterior" />
 
         <ImageView
@@ -78,10 +103,74 @@
             android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:contentDescription="carta 5 oponente"
+            android:contentDescription="@string/card5_opponent"
             app:srcCompat="@drawable/cartaparteposterior" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_castle1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/castle_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:srcCompat="@drawable/castlefont" />
+
+    <ImageView
+        android:id="@+id/img_fence1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:contentDescription="@string/fence_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:srcCompat="@drawable/fence" />
+
+    <ImageView
+        android:id="@+id/img_fence2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/fence_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_top"
+        app:srcCompat="@drawable/fence" />
+
+    <ImageView
+        android:id="@+id/img_castle2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/castle_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_top"
+        app:srcCompat="@drawable/castlefont" />
+
+    <ImageView
+        android:id="@+id/img_card"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/card"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cartaparteposterior" />
+
+    <ImageView
+        android:id="@+id/img_card_opponent"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/card_opponent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_top"
+        app:srcCompat="@drawable/cartaparteposterior" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -90,236 +179,261 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.5" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintGuide_percent="0.8" />
 
-        <ImageView
-            android:id="@+id/img_card1"
-            android:layout_width="60dp"
-            android:layout_height="match_parent"
-            android:contentDescription="carta 1"
-            android:onClick="onClickCard"
-            app:srcCompat="@drawable/cartaparteposterior" />
-
-        <ImageView
-            android:id="@+id/img_card2"
-            android:layout_width="60dp"
-            android:layout_height="match_parent"
-            android:contentDescription="carta 2"
-            android:onClick="onClickCard"
-            app:srcCompat="@drawable/cartaparteposterior" />
-
-        <ImageView
-            android:id="@+id/img_card3"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:contentDescription="carta 3"
-            android:onClick="onClickCard"
-            app:srcCompat="@drawable/cartaparteposterior" />
-
-        <ImageView
-            android:id="@+id/img_card4"
-            android:layout_width="60dp"
-            android:layout_height="match_parent"
-            android:contentDescription="carta 4"
-            android:onClick="onClickCard"
-            app:srcCompat="@drawable/cartaparteposterior" />
-
-        <ImageView
-            android:id="@+id/img_card5"
-            android:layout_width="60dp"
-            android:layout_height="match_parent"
-            android:contentDescription="carta 5"
-            android:onClick="onClickCard"
-            app:srcCompat="@drawable/cartaparteposterior" />
-
-        <Button
-            android:id="@+id/btn_update"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onClickUpdate"
-            android:text="Actualizar" />
-    </LinearLayout>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
 
     <TextView
         android:id="@+id/txt_hp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:text="25"
-        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/castle_points"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="@+id/img_castle1"
-        app:layout_constraintStart_toStartOf="@+id/img_castle1"
-        app:layout_constraintTop_toTopOf="@+id/img_castle1" />
+        app:layout_constraintStart_toEndOf="@+id/img_castle1"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <TextView
         android:id="@+id/txt_fence"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:text="0"
-        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="128dp"
+        android:text="@string/fence_points"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="@+id/img_castle1"
-        app:layout_constraintEnd_toEndOf="@+id/img_castle1"
-        app:layout_constraintTop_toTopOf="@+id/img_castle1" />
+        app:layout_constraintStart_toEndOf="@+id/img_fence1"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <TextView
         android:id="@+id/txt_player1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
-        android:text="Jugador 1"
-        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/player1"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/img_castle1"
-        app:layout_constraintTop_toTopOf="@+id/img_castle1" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <TextView
+        android:id="@+id/txt_colorRed"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txt_worker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Obre 10"
+        android:layout_marginStart="8dp"
+        android:text="@string/start_resources"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_castle1" />
+        app:layout_constraintStart_toEndOf="@+id/txt_colorRed" />
+
+    <TextView
+        android:id="@+id/txt_colorGreen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintStart_toEndOf="@+id/txt_worker" />
 
     <TextView
         android:id="@+id/txt_soldier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:text="Sol 10"
+        android:layout_marginStart="8dp"
+        android:text="@string/start_resources"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintStart_toEndOf="@+id/txt_worker"
-        app:layout_constraintTop_toBottomOf="@+id/img_castle1"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintStart_toEndOf="@+id/txt_colorGreen" />
+
+    <TextView
+        android:id="@+id/txt_colorPurple"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/holo_purple"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintStart_toEndOf="@+id/txt_soldier" />
 
     <TextView
         android:id="@+id/txt_magic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:text="Magia 10"
+        android:layout_marginStart="8dp"
+        android:text="@string/start_resources"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintStart_toEndOf="@+id/txt_soldier"
-        app:layout_constraintTop_toBottomOf="@+id/img_castle1"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintStart_toEndOf="@+id/txt_colorPurple" />
+
+    <TextView
+        android:id="@+id/txt_colorYellow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintStart_toEndOf="@+id/txt_magic" />
 
     <TextView
         android:id="@+id/txt_gold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:text="Oro 10"
+        android:layout_marginStart="8dp"
+        android:text="@string/start_resources"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintStart_toEndOf="@+id/txt_magic"
-        app:layout_constraintTop_toBottomOf="@+id/img_castle1"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintStart_toEndOf="@+id/txt_colorYellow" />
 
     <TextView
         android:id="@+id/txt_hp_opponent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:text="25"
-        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/castle_points_opponent"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="@+id/img_castle2"
-        app:layout_constraintStart_toStartOf="@+id/img_castle1"
-        app:layout_constraintTop_toTopOf="@+id/img_castle2" />
+        app:layout_constraintEnd_toStartOf="@+id/img_castle2"
+        app:layout_constraintTop_toTopOf="@+id/guideline_top" />
 
     <TextView
         android:id="@+id/txt_fence_opponent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:text="0"
-        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/fence_points_opponent"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="@+id/img_castle2"
-        app:layout_constraintEnd_toEndOf="@+id/img_castle1"
-        app:layout_constraintTop_toTopOf="@+id/img_castle2" />
+        app:layout_constraintEnd_toStartOf="@+id/img_fence2"
+        app:layout_constraintTop_toTopOf="@+id/guideline_top" />
 
     <TextView
         android:id="@+id/txt_player2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        android:text="Jugador 2"
-        android:textColor="@color/colorPrimary"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/player2"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/img_castle2"
-        app:layout_constraintTop_toTopOf="@+id/img_castle2" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_colorRed_opponent"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toStartOf="@+id/txt_worker_opponent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
         android:id="@+id/txt_worker_opponent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Obre 10"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/start_resources"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/img_castle2" />
+        app:layout_constraintEnd_toStartOf="@+id/txt_colorGreen_opponent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/txt_colorGreen_opponent"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_green_dark"
+        app:layout_constraintEnd_toStartOf="@+id/txt_soldier_opponent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
         android:id="@+id/txt_soldier_opponent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Sol 10"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/start_resources"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-        app:layout_constraintStart_toEndOf="@+id/txt_worker"
-        app:layout_constraintTop_toTopOf="@+id/img_castle2"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintEnd_toStartOf="@+id/txt_colorPurple_opponent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/txt_colorPurple_opponent"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_purple"
+        app:layout_constraintEnd_toStartOf="@+id/txt_magic_opponent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
         android:id="@+id/txt_magic_opponent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Magia 10"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/start_resources"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-        app:layout_constraintStart_toEndOf="@+id/txt_soldier"
-        app:layout_constraintTop_toTopOf="@+id/img_castle2"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintEnd_toStartOf="@+id/txt_colorYellow_opponent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/txt_colorYellow_opponent"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toStartOf="@+id/txt_gold_opponent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
         android:id="@+id/txt_gold_opponent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Oro 10"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/start_resources"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-        app:layout_constraintStart_toEndOf="@+id/txt_magic"
-        app:layout_constraintTop_toTopOf="@+id/img_castle2"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <Button
         android:id="@+id/btn_skip"
@@ -327,7 +441,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:onClick="onClickSkip"
-        android:text="Terminar Turno"
+        android:text="@string/finish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -336,31 +450,20 @@
         android:id="@+id/txt_turno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="32dp"
-        android:text="turno"
-        android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_skip"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <ImageView
-        android:id="@+id/img_card"
-        android:layout_width="100dp"
-        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        android:contentDescription="Carta Grande"
-        app:layout_constraintBottom_toTopOf="@+id/txt_soldier"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/cartaparteposterior" />
+        android:text="@string/turn"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_clearSelect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClickCard"
-        android:text="Deseleccionar"
+        android:text="@string/clear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_skip" />
 

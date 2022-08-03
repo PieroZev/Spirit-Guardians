@@ -11,4 +11,36 @@
     <string name="password">Contraseña</string>
     <string name="room_name">Nombre de la sala</string>
 
+    <!--Game Activity-->
+    <string name="card1">Carta 1</string>
+    <string name="card2">Carta 2</string>
+    <string name="card3">Carta 3</string>
+    <string name="card4">Carta 4</string>
+    <string name="card5">Carta 5</string>
+    <string name="card">Carta Centro</string>
+
+    <string name="card1_opponent">Carta 1 Oponente</string>
+    <string name="card2_opponent">Carta 2 Oponente</string>
+    <string name="card3_opponent">Carta 3 Oponente</string>
+    <string name="card4_opponent">Carta 4 Oponente</string>
+    <string name="card5_opponent">Carta 5 Oponente</string>
+    <string name="card_opponent">Carta Centro Oponente</string>
+
+    <string name="castle_1">Castillo 1</string>
+    <string name="castle_2">Castillo 2</string>
+    <string name="fence_1">Muralla 1</string>
+    <string name="fence_2">Muralla 2</string>
+
+    <string name="castle_points">25</string>
+    <string name="fence_points">0</string>
+    <string name="player1">Jugador 1</string>
+    <string name="start_resources">0</string>
+
+    <string name="castle_points_opponent">25</string>
+    <string name="fence_points_opponent">0</string>
+    <string name="player2">InvitadoAAAAA</string>
+
+    <string name="finish">Terminar turno</string>
+    <string name="turn">Turno</string>
+    <string name="clear">Deseleccionar</string>
 </resources>
