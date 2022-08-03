@@ -222,52 +222,41 @@ public class GameActivity extends AppCompatActivity {
                     if (cardAction(cardPosition1)){
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition1).getTitle(), Toast.LENGTH_SHORT).show();
                         cardPosition1 = Math.round((float) turn/2) + 5;
-                        turn++;
                         card1.setImageResource(deck_self.get(cardPosition1).getImage());
-                        endTurnAction();
                     }
                 }
                 else if (selected == card2) {
                     if(cardAction(cardPosition2)) {
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition2).getTitle(), Toast.LENGTH_SHORT).show();
                         cardPosition2 = Math.round((float) turn/2) + 5;
-                        turn++;
                         card2.setImageResource(deck_self.get(cardPosition2).getImage());
-                        endTurnAction();
                     }
                 }
                 else if (selected == card3) {
                     if(cardAction(cardPosition3)) {
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition3).getTitle(), Toast.LENGTH_SHORT).show();
                         cardPosition3 = Math.round((float) turn/2) + 5;
-                        turn++;
                         card3.setImageResource(deck_self.get(cardPosition3).getImage());
-                        endTurnAction();
                     }
                 }
                 else if (selected == card4) {
                     if(cardAction(cardPosition4)) {
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition4).getTitle(), Toast.LENGTH_SHORT).show();
                         cardPosition4 = Math.round((float) turn/2) + 5;
-                        turn++;
                         card4.setImageResource(deck_self.get(cardPosition4).getImage());
-                        endTurnAction();
                     }
                 }
                 else if (selected == card5) {
                     if(cardAction(cardPosition5)) {
                         Toast.makeText(this, "Card Played: " + deck_self.get(cardPosition5).getTitle(), Toast.LENGTH_SHORT).show();
                         cardPosition5 = Math.round((float) turn/2) + 5;
-                        turn++;
                         card5.setImageResource(deck_self.get(cardPosition5).getImage());
-                        endTurnAction();
                     }
                 }
-                else{
-                    turn++;
-                    endTurnAction();
-                }
-
+                turn++;
+                endTurnAction();
+                card.setImageResource(R.drawable.cartaparteposterior);
+                selected = null;
             }
         }
 
@@ -299,10 +288,10 @@ public class GameActivity extends AppCompatActivity {
                 public void run() {
                     // Stuff that updates the UI
                     if((player_self.isFirstPlayer() && turn % 2 !=0) || (!player_self.isFirstPlayer() && turn % 2 == 0)){
-                        turno.setText("tu turno "+turn);
+                        turno.setText("Turno "+turn);
                         skip.setVisibility(View.VISIBLE);
                     } else {
-                        turno.setText("turno oponente "+turn);
+                        turno.setText("Turno "+turn);
                         skip.setVisibility(View.GONE);
                     }
                 }
@@ -493,10 +482,10 @@ public class GameActivity extends AppCompatActivity {
     public void updateMatch(Player player_self, Player player_opponent, int turn) {
         try {
             if ((player_self.isFirstPlayer() && turn % 2 != 0) || (!player_self.isFirstPlayer() && turn % 2 == 0)) {
-                turno.setText("tu turno " + turn);
+                turno.setText("Turno " + turn);
                 skip.setVisibility(View.VISIBLE);
             } else {
-                turno.setText("turno oponente " + turn);
+                turno.setText("Turno " + turn);
                 skip.setVisibility(View.GONE);
             }
 
