@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,11 +23,13 @@ import com.piero.spiritguardians.Cards.Deck1;
 import com.piero.spiritguardians.Game.Match;
 import com.piero.spiritguardians.Players.Player;
 import com.piero.spiritguardians.Utility.GuestNameDialogFragment;
+import com.piero.spiritguardians.Utility.WinDefeatDialogFragment;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -43,7 +46,8 @@ public class GameActivity extends AppCompatActivity {
     private Player player_opponent;
     private ArrayList<Card> deck_self = new ArrayList<>();
     private ArrayList<Card> deck_opponent = new ArrayList<>();
-
+    private boolean turn_self = false;
+    private CountDownTimer countDownTimer;
     private String username;
 
     private int cardPosition1 = 0;
@@ -84,6 +88,7 @@ public class GameActivity extends AppCompatActivity {
     private Button clearSelect;
     private TextView turno;
     private ImageView card;
+    private TextView contador;
 
     private int castleHeight = 200;
     private int castleWidth = 300;
@@ -131,7 +136,7 @@ public class GameActivity extends AppCompatActivity {
         clearSelect = findViewById(R.id.btn_clearSelect);
         turno = findViewById(R.id.txt_turno);
         card = findViewById(R.id.img_card);
-
+        contador = findViewById(R.id.txt_contador);
         //Setting starting values for player 1
         username = getIntent().getStringExtra("guestName");
         Player player1_default = new Player("", "Deck 1",25,0,2,2,2,10,10,10,10,true);
@@ -158,7 +163,7 @@ public class GameActivity extends AppCompatActivity {
         player_self.setName(username);
         //Create Match
         String matchCode = getIntent().getStringExtra("matchCode");
-        if(!matchCode.isEmpty()) activeMatch = new Match(matchCode, player_self, player_opponent, turn);
+        if(matchCode != null) activeMatch = new Match(matchCode, player_self, player_opponent, turn);
         else activeMatch = new Match("MTEST1", player_self, player_opponent, turn);
 
         updateMatch(player_self, player_opponent, turn);
@@ -257,6 +262,11 @@ public class GameActivity extends AppCompatActivity {
                 endTurnAction();
                 card.setImageResource(R.drawable.cartaparteposterior);
                 selected = null;
+                contador.setText("00");
+                if(countDownTimer != null){
+                    countDownTimer.cancel();
+                    countDownTimer = null;
+                }
             }
         }
 
@@ -273,12 +283,15 @@ public class GameActivity extends AppCompatActivity {
             public void run() {
         try {
                     if (player_self.getCastle_points() <= 0 || player_opponent.getCastle_points() <= 0 || player_self.getCastle_points() >= 100 || player_opponent.getCastle_points() >= 100) {
-                        GuestNameDialogFragment dialog = new GuestNameDialogFragment();
-                        dialog.setContext(context);
                         if (player_self.getCastle_points() <= 0 || player_opponent.getCastle_points() >= 100) {
-                            dialog.setMessage("Juego Terminado: Ganador " + player_opponent.getName());
-                        } else dialog.setMessage("Juego Terminado: Ganador " + player_self.getName());
-                        dialog.show(getSupportFragmentManager(), "game");
+                            String dialogMessage = "Juego Terminado: Ganador " + player_opponent.getName();
+                            WinDefeatDialogFragment dialog = new WinDefeatDialogFragment(context, dialogMessage, player_self.getName());
+                            dialog.show(getSupportFragmentManager(), "game");
+                        } else {
+                            String dialogMessage = "Juego Terminado: Ganador " + player_self.getName();
+                            WinDefeatDialogFragment dialog = new WinDefeatDialogFragment(context, dialogMessage, player_self.getName());
+                            dialog.show(getSupportFragmentManager(), "game");
+                        }
                         timer.cancel();
                     } else
                         calculateTurnAndPlayerstats();
@@ -288,9 +301,14 @@ public class GameActivity extends AppCompatActivity {
                 public void run() {
                     // Stuff that updates the UI
                     if((player_self.isFirstPlayer() && turn % 2 !=0) || (!player_self.isFirstPlayer() && turn % 2 == 0)){
+                        if(turn_self == false) {
+                            turn_self = true;
+                            setMaxTimeForTurn();
+                        }
                         turno.setText("Turno "+turn);
                         skip.setVisibility(View.VISIBLE);
                     } else {
+                        if(turn_self == true) turn_self = false;
                         turno.setText("Turno "+turn);
                         skip.setVisibility(View.GONE);
                     }
@@ -603,6 +621,22 @@ public class GameActivity extends AppCompatActivity {
             player_opponent.setFence_points(0);
             return atk;
         } else return atk;
+    }
+
+    public void setMaxTimeForTurn(){
+        countDownTimer = new CountDownTimer(60000, 1000) {
+            public void onTick(long millisUntilFinished) {
+                contador.setText(String.format(Locale.getDefault(), "%d", millisUntilFinished / 1000L));
+            }
+
+            public void onFinish() {
+                contador.setText("00");
+                turn++;
+                endTurnAction();
+                card.setImageResource(R.drawable.cartaparteposterior);
+                selected = null;
+            }
+        }.start();
     }
 
 }

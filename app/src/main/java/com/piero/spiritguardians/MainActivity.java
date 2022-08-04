@@ -45,9 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (view == start) {
 
-                GuestNameDialogFragment dialog = new GuestNameDialogFragment();
-                dialog.setContext(this);
-                dialog.setMessage("Se le asignará un nombre aleatorio");
+                GuestNameDialogFragment dialog = new GuestNameDialogFragment(this, "Se le asignará un nombre aleatorio");
                 dialog.show(getSupportFragmentManager(), "game");
             }
 

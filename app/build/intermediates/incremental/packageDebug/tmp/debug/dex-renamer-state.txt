@@ -1,4 +1,4 @@
-#Wed Aug 03 16:54:35 COT 2022
+#Thu Aug 04 12:22:13 COT 2022
 base.0=C\:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

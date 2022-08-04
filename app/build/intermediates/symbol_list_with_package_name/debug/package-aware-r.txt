@@ -678,6 +678,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -984,7 +985,6 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable obreros
 drawable quitamuralla
-drawable reload
 drawable soldados
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -1343,6 +1343,7 @@ id txt_colorRed
 id txt_colorRed_opponent
 id txt_colorYellow
 id txt_colorYellow_opponent
+id txt_contador
 id txt_createRoom
 id txt_email
 id txt_fence
@@ -1456,6 +1457,7 @@ layout support_simple_spinner_dropdown_item
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw keep
 string abc_action_bar_home_description
@@ -1523,6 +1525,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
+string counter
 string create
 string deck
 string default_web_client_id

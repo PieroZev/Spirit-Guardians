@@ -100,33 +100,38 @@ public class CreateRoomActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         try {
-            if(!roomName.getText().toString().trim().isEmpty() && !roomPassword.getText().toString().trim().isEmpty()) {
+            if(!roomName.getText().toString().trim().isEmpty()) {
                 if (view == create) {
                     //Create Room
-                    FirebaseDatabase database = FirebaseDatabase.getInstance();
-                    DatabaseReference myRef = database.getReference("rooms");
-
                     for (int i = 0; i < usersLength; i++) {
                         if (usernames[i].equals(username)) userCode = usercodes[i];
                     }
-                    //Create the match code
-                    String matchCode = "M" + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random());
-                    String roomCode = myRef.push().getKey();
+                    if(userCode != 0 || roomPassword.getText().toString().trim().isEmpty()) {
 
-                    Room room = new Room(roomName.getText().toString(), roomCode, roomPassword.getText().toString(), userCode, 1, matchCode);
+                        FirebaseDatabase database = FirebaseDatabase.getInstance();
+                        DatabaseReference myRef = database.getReference("rooms");
+                        //Create the match code
+                        String matchCode = "M" + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random()) + (int) (10 * Math.random());
+                        String roomCode = myRef.push().getKey();
 
-                    myRef.child(roomCode).setValue(room);
+                        Room room = new Room(roomName.getText().toString(), roomCode, roomPassword.getText().toString(), userCode, 1, matchCode);
 
-                    //
-                    Intent i = new Intent(this, GameActivity.class);
-                    i.putExtra("userCode", userCode);
-                    i.putExtra("guestName", username);
-                    i.putExtra("matchCode", matchCode);
-                    i.putExtra("roomCode", roomCode);
-                    startActivity(i);
+                        myRef.child(roomCode).setValue(room);
+
+                        //
+                        Intent i = new Intent(this, GameActivity.class);
+                        i.putExtra("userCode", userCode);
+                        i.putExtra("guestName", username);
+                        i.putExtra("matchCode", matchCode);
+                        i.putExtra("roomCode", roomCode);
+                        startActivity(i);
+                    } else {
+                        Toast.makeText(this, "Debes estar registrado para colocar una contraseña", Toast.LENGTH_SHORT).show();
+                        roomPassword.setText("");
+                    }
                 }
             }else {
-                Toast.makeText(this, "Nombre o Contraseña de la sala vacíos", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Nombre de la sala vacío", Toast.LENGTH_SHORT).show();
             }
         }catch(Exception e){
             e.printStackTrace();

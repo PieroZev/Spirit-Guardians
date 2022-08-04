@@ -4,24 +4,16 @@
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\muerte.png"
     },
     {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ataque5.png.flat",
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\ataque5.png"
     },
     {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_magia.png.flat",
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\magia.png"
-    },
-    {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bancarrota.png.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\bancarrota.png"
-    },
-    {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_userprofile.png.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\userprofile.png"
     },
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dragon.png.flat",
@@ -30,10 +22,6 @@
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rooms.xml.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\layout\\activity_rooms.xml"
     },
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -50,6 +38,66 @@
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fence.PNG.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\fence.PNG"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_babilonia.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\babilonia.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soldados.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\soldados.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_castlefont.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\castlefont.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_game.xml.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\layout\\activity_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bancarrota.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\bancarrota.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_userprofile.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\userprofile.png"
+    },
+    {
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rooms.xml.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\layout\\activity_rooms.xml"
     },
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_obreros.png.flat",
@@ -88,16 +136,8 @@
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\layout\\guestname_layout.xml"
     },
     {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reload.png.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\reload.png"
-    },
-    {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fence.PNG.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\fence.PNG"
+        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -108,16 +148,8 @@
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ladron.png.flat",
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\ladron.png"
-    },
-    {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_babilonia.png.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\babilonia.png"
     },
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
@@ -128,16 +160,8 @@
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\economia.png"
     },
     {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soldados.png.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\soldados.png"
-    },
-    {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_create_room.xml.flat",
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\layout\\activity_create_room.xml"
-    },
-    {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_castlefont.png.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\castlefont.png"
     },
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_start_menu.xml.flat",
@@ -160,10 +184,6 @@
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -174,10 +194,6 @@
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_escudo.png.flat",
         "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\drawable\\escudo.png"
-    },
-    {
-        "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_game.xml.flat",
-        "source": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\src\\main\\res\\layout\\activity_game.xml"
     },
     {
         "merged": "C:\\Users\\PIERO\\Documents\\spirit-guardians-android\\Spirit-Guardians\\app\\build\\intermediates\\res\\merged\\debug\\drawable_muralla.png.flat",

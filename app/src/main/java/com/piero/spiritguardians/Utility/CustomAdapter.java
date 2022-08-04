@@ -9,21 +9,14 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.piero.spiritguardians.Game.Room;
 import com.piero.spiritguardians.GameActivity;
 import com.piero.spiritguardians.R;
-import com.piero.spiritguardians.RoomsActivity;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder> {
 
@@ -96,24 +89,26 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
             viewHolder.getJoin().setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
                     if (room.getPlayerNumber() < 2) {
-                        room.setPlayerNumber(room.getPlayerNumber() + 1);
+
+                        /*if (room.getPassword() != null && !room.getPassword().equals("")){
+                            EnterRoomFragment dialog = new EnterRoomFragment(context, "Ingrese contraseña", room.getPassword(), username, room.getMatchCode());
+                            dialog.show(((AppCompatActivity)context).getSupportFragmentManager(), "game");
+                            room.setPlayerNumber(room.getPlayerNumber() + 1);
+                        }*/
+                            room.setPlayerNumber(room.getPlayerNumber() + 1);
+                            Intent i = new Intent(context, GameActivity.class);
+                            i.putExtra("guestName", username);
+                            i.putExtra("isPlayer2", true);
+                            i.putExtra("matchCode", room.getMatchCode());
+                            context.startActivity(i);
+
                         FirebaseDatabase database = FirebaseDatabase.getInstance();
                         DatabaseReference myRef = database.getReference("rooms").child(room.getRoomCode());
 
                         myRef.child("playerNumber").setValue(room.getPlayerNumber());
 
-                        Intent i = new Intent(context, GameActivity.class);
-                        i.putExtra("userCode", room.getUserCode());
-                        i.putExtra("guestName", username);
-                        i.putExtra("roomCode", room.getRoomCode());
-                        i.putExtra("isPlayer2", true);
-                        i.putExtra("matchCode", room.getMatchCode());
-                        i.putExtra("password", room.getPassword());
-                        i.putExtra("roomName", room.getRoomName());
-                        i.putExtra("playerNumber", room.getPlayerNumber());
-                        context.startActivity(i);
                     } else {
-                        Toast.makeText(context, "The room has already been occupied", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "La sala está llena", Toast.LENGTH_SHORT).show();
                     }
                 }
             });

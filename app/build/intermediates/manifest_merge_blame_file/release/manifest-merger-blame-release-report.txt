@@ -1,13 +1,13 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.piero.spiritguardians"
-4    android:versionCode="2"
-5    android:versionName="1.1" >
+4    android:versionCode="104"
+5    android:versionName="1.4" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
 8-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="30" />
+9        android:targetSdkVersion="31" />
 9-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
@@ -31,7 +31,7 @@
 18        android:allowBackup="true"
 18-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.5.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\15f0efbd1b9e401c403e181320e0999d\core-1.5.0\AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.7.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\a2f4639862f3971de0211d73bb941eb5\core-1.7.0\AndroidManifest.xml:24:18-86
 20        android:icon="@mipmap/ic_launcher"
 20-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:7:9-43
 21        android:label="@string/app_name"
@@ -42,203 +42,251 @@
 23-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:10:9-35
 24        android:theme="@style/AppTheme" >
 24-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:11:9-40
-25        <activity android:name="com.piero.spiritguardians.LoginActivity" />
-25-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:9-60
-25-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:19-48
-26        <activity android:name="com.piero.spiritguardians.RegisterActivity" />
-26-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:9-54
-26-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:19-51
-27        <activity android:name="com.piero.spiritguardians.GameActivity" />
-27-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:9-50
-27-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:19-47
-28        <activity android:name="com.piero.spiritguardians.DeckActivity" />
-28-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:9-50
-28-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:19-47
-29        <activity android:name="com.piero.spiritguardians.CreateRoomActivity" />
-29-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:9-56
-29-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:19-53
-30        <activity android:name="com.piero.spiritguardians.RoomsActivity" />
-30-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:9-51
-30-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:19-48
-31        <activity android:name="com.piero.spiritguardians.StartMenu" />
-31-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:9-47
-31-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:19-44
-32        <activity android:name="com.piero.spiritguardians.MainActivity" >
-32-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:9-25:20
-32-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:19-47
-33            <intent-filter>
-33-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:20:13-24:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:21:17-69
-34-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:21:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:23:17-77
-36-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:23:27-74
-37            </intent-filter>
-38        </activity>
-39        <activity
-39-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:27:9-44:20
-40            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-40-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:28:13-80
-41            android:excludeFromRecents="true"
-41-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:29:13-46
-42            android:exported="true"
-42-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:30:13-36
-43            android:launchMode="singleTask"
-43-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:31:13-44
-44            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-44-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:32:13-72
-45            <intent-filter>
-45-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:33:13-43:29
-46                <action android:name="android.intent.action.VIEW" />
-46-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:34:17-69
-46-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:34:25-66
-47
-48                <category android:name="android.intent.category.DEFAULT" />
-48-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:17-76
-48-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:27-73
-49                <category android:name="android.intent.category.BROWSABLE" />
-49-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:37:17-78
-49-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:37:27-75
-50
-51                <data
-51-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:39:17-42:51
-52                    android:host="firebase.auth"
-52-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:40:21-49
-53                    android:path="/"
-53-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:41:21-37
-54                    android:scheme="genericidp" />
-54-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:42:21-48
-55            </intent-filter>
-56        </activity>
-57        <activity
-57-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:45:9-62:20
-58            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-58-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:46:13-79
-59            android:excludeFromRecents="true"
-59-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:47:13-46
-60            android:exported="true"
-60-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:48:13-36
-61            android:launchMode="singleTask"
-61-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:49:13-44
-62            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-62-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:50:13-72
-63            <intent-filter>
-63-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:51:13-61:29
-64                <action android:name="android.intent.action.VIEW" />
-64-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:34:17-69
-64-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:34:25-66
-65
-66                <category android:name="android.intent.category.DEFAULT" />
-66-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:17-76
-66-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:27-73
-67                <category android:name="android.intent.category.BROWSABLE" />
-67-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:37:17-78
-67-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:37:27-75
-68
-69                <data
-69-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:39:17-42:51
-70                    android:host="firebase.auth"
-70-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:40:21-49
-71                    android:path="/"
-71-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:41:21-37
-72                    android:scheme="recaptcha" />
-72-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:42:21-48
-73            </intent-filter>
-74        </activity>
-75
-76        <service
-76-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:64:9-70:19
-77            android:name="com.google.firebase.components.ComponentDiscoveryService"
-77-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:65:13-84
-78            android:directBootAware="true"
-78-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
-79            android:exported="false" >
-79-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:66:13-37
-80            <meta-data
-80-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:67:13-69:85
-81                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-81-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:68:17-109
-82                android:value="com.google.firebase.components.ComponentRegistrar" />
-82-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:69:17-82
-83            <meta-data
-83-->[com.google.firebase:firebase-database:20.0.5] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e080c3d855769e7940a77744b9546409\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
-84                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-84-->[com.google.firebase:firebase-database:20.0.5] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e080c3d855769e7940a77744b9546409\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
-85                android:value="com.google.firebase.components.ComponentRegistrar" />
-85-->[com.google.firebase:firebase-database:20.0.5] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e080c3d855769e7940a77744b9546409\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
-86            <meta-data
-86-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ab199b59951b1551f616411962fa8694\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
-87                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-87-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ab199b59951b1551f616411962fa8694\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
-88                android:value="com.google.firebase.components.ComponentRegistrar" />
-88-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ab199b59951b1551f616411962fa8694\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
-89            <meta-data
-89-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\16e01baee5d9fab18356b7467f03713b\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
-90                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-90-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\16e01baee5d9fab18356b7467f03713b\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
-91                android:value="com.google.firebase.components.ComponentRegistrar" />
-91-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\16e01baee5d9fab18356b7467f03713b\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
-92        </service>
-93
-94        <provider
-94-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
-95            android:name="com.google.firebase.provider.FirebaseInitProvider"
-95-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
-96            android:authorities="com.piero.spiritguardians.firebaseinitprovider"
-96-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
-97            android:directBootAware="true"
-97-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
-98            android:exported="false"
-98-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
-99            android:initOrder="100" />
-99-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
-100
-101        <receiver
-101-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
-102            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-102-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
-103            android:enabled="true"
-103-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
-104            android:exported="false" >
-104-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
-105        </receiver>
-106
-107        <service
-107-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
-108            android:name="com.google.android.gms.measurement.AppMeasurementService"
-108-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
-109            android:enabled="true"
-109-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
-110            android:exported="false" />
-110-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
-111        <service
-111-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
-112            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-112-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
-113            android:enabled="true"
-113-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
-114            android:exported="false"
-114-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
-115            android:permission="android.permission.BIND_JOB_SERVICE" />
-115-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
-116
-117        <activity
-117-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\532581e4682ccb3ef60e20d8cf913b5d\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-118            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-118-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\532581e4682ccb3ef60e20d8cf913b5d\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-119            android:exported="false"
-119-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\532581e4682ccb3ef60e20d8cf913b5d\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-120-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\532581e4682ccb3ef60e20d8cf913b5d\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-121
-122        <meta-data
-122-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-123            android:name="com.google.android.gms.version"
-123-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-124            android:value="@integer/google_play_services_version" />
-124-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-125    </application>
-126
-127</manifest>
+25        <activity
+25-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:9-97
+26            android:name="com.piero.spiritguardians.LoginActivity"
+26-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:19-48
+27            android:screenOrientation="portrait" />
+27-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:49-85
+28        <activity
+28-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:9-90
+29            android:name="com.piero.spiritguardians.RegisterActivity"
+29-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:19-51
+30            android:screenOrientation="portrait" />
+30-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:52-88
+31        <activity
+31-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:9-86
+32            android:name="com.piero.spiritguardians.GameActivity"
+32-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:19-47
+33            android:screenOrientation="portrait" />
+33-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:48-84
+34        <activity
+34-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:9-86
+35            android:name="com.piero.spiritguardians.DeckActivity"
+35-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:19-47
+36            android:screenOrientation="portrait" />
+36-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:48-84
+37        <activity
+37-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:9-92
+38            android:name="com.piero.spiritguardians.CreateRoomActivity"
+38-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:19-53
+39            android:screenOrientation="portrait" />
+39-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:54-90
+40        <activity
+40-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:9-87
+41            android:name="com.piero.spiritguardians.RoomsActivity"
+41-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:19-48
+42            android:screenOrientation="portrait" />
+42-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:49-85
+43        <activity
+43-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:9-84
+44            android:name="com.piero.spiritguardians.StartMenu"
+44-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:19-44
+45            android:screenOrientation="portrait" />
+45-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:45-81
+46        <activity
+46-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:9-25:20
+47            android:name="com.piero.spiritguardians.MainActivity"
+47-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:19-47
+48            android:exported="true"
+48-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:85-108
+49            android:screenOrientation="portrait" >
+49-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:48-84
+50            <intent-filter>
+50-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:20:13-24:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:21:17-69
+51-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:21:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:23:17-77
+53-->C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:23:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:27:9-44:20
+57            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+57-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:28:13-80
+58            android:excludeFromRecents="true"
+58-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:29:13-46
+59            android:exported="true"
+59-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:30:13-36
+60            android:launchMode="singleTask"
+60-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:31:13-44
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+61-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:32:13-72
+62            <intent-filter>
+62-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:33:13-43:29
+63                <action android:name="android.intent.action.VIEW" />
+63-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:34:17-69
+63-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:34:25-66
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:17-76
+65-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:27-73
+66                <category android:name="android.intent.category.BROWSABLE" />
+66-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:37:17-78
+66-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:37:27-75
+67
+68                <data
+68-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:39:17-42:51
+69                    android:host="firebase.auth"
+69-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:40:21-49
+70                    android:path="/"
+70-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:41:21-37
+71                    android:scheme="genericidp" />
+71-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:42:21-48
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:45:9-62:20
+75            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+75-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:46:13-79
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:47:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:48:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:49:13-44
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+79-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:50:13-72
+80            <intent-filter>
+80-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:51:13-61:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:34:17-69
+81-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:34:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:17-76
+83-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:36:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:37:17-78
+84-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:37:27-75
+85
+86                <data
+86-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:39:17-42:51
+87                    android:host="firebase.auth"
+87-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:40:21-49
+88                    android:path="/"
+88-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:41:21-37
+89                    android:scheme="recaptcha" />
+89-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:42:21-48
+90            </intent-filter>
+91        </activity>
+92
+93        <service
+93-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:64:9-70:19
+94            android:name="com.google.firebase.components.ComponentDiscoveryService"
+94-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:65:13-84
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+96            android:exported="false" >
+96-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:66:13-37
+97            <meta-data
+97-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:67:13-69:85
+98                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+98-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:68:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:69:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-database:20.0.5] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e080c3d855769e7940a77744b9546409\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+101                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+101-->[com.google.firebase:firebase-database:20.0.5] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e080c3d855769e7940a77744b9546409\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-database:20.0.5] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e080c3d855769e7940a77744b9546409\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+103            <meta-data
+103-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ab199b59951b1551f616411962fa8694\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+104                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+104-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ab199b59951b1551f616411962fa8694\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ab199b59951b1551f616411962fa8694\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\16e01baee5d9fab18356b7467f03713b\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+107                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+107-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\16e01baee5d9fab18356b7467f03713b\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\16e01baee5d9fab18356b7467f03713b\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+109        </service>
+110
+111        <provider
+111-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+112            android:name="com.google.firebase.provider.FirebaseInitProvider"
+112-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+113            android:authorities="com.piero.spiritguardians.firebaseinitprovider"
+113-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:20.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\422f2938f30cae0cb9fa4dc45c645a6b\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+117
+118        <receiver
+118-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+119-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+121            android:exported="false" >
+121-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+122        </receiver>
+123
+124        <service
+124-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+125            android:name="com.google.android.gms.measurement.AppMeasurementService"
+125-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+127            android:exported="false" />
+127-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+128        <service
+128-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+129            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+129-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+131            android:exported="false"
+131-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+132            android:permission="android.permission.BIND_JOB_SERVICE" />
+132-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a08151d0c98361e543538abccaa71ef\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\532581e4682ccb3ef60e20d8cf913b5d\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\532581e4682ccb3ef60e20d8cf913b5d\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\532581e4682ccb3ef60e20d8cf913b5d\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\532581e4682ccb3ef60e20d8cf913b5d\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+142
+143        <provider
+143-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+144            android:name="androidx.startup.InitializationProvider"
+144-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+145            android:authorities="com.piero.spiritguardians.androidx-startup"
+145-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+146            android:exported="false" >
+146-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+147            <meta-data
+147-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+148                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+148-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+149                android:value="androidx.startup" />
+149-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+150            <meta-data
+150-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+151                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+151-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+152                android:value="androidx.startup" />
+152-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+153        </provider>
+154    </application>
+155
+156</manifest>

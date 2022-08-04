@@ -43,4 +43,6 @@
     <string name="finish">Terminar turno</string>
     <string name="turn">Turno</string>
     <string name="clear">Deseleccionar</string>
+
+    <string name="counter">00</string>
 </resources>

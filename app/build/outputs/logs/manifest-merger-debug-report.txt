@@ -191,6 +191,8 @@ activity#com.piero.spiritguardians.MainActivity
 ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:screenOrientation
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:48-84
+	android:exported
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:85-108
 	android:name
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

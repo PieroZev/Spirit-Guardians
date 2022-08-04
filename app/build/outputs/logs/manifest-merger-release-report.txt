@@ -4,8 +4,8 @@ ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\ap
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:2:1-28:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\7417af9f76045e8f6283d2fc89751a8e\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\820a52f130244648f4d0301e279c6f91\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\05b154e6d4cccaa40d95d7828420477a\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\5e0b3f5d1f4c36d3d833eace6224d2ee\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1b5db68e042f83c55bf10b41732ba6c6\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1226483bc440a48175c3668501db5f9d\jetified-firebase-analytics-21.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:17:1-73:12
@@ -32,8 +32,10 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\a0a02916a4c48e01b8ab9f746a9cba81\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\de970c8184b370aec5b6c40b5a9510e3\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\78eeda6c26c2428fdce491080c78f3f5\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6d63f0a0dc20437d769b11a53bc7cd99\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6a950269d64b7a85ab62d27eb155f48e\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\0e7a4d792a3eb01cb0ba0bc2bc34b735\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ab116c7f5c3c01b8a3745d1af6e29c1d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1051ea2d5da877791cc1022c53dcd9f9\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\133408e30cd3ea95bae598042f148a89\browser-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -41,23 +43,25 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\PIERO\.gr
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ff59b43ef3908b1928377bf2e2f591de\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a0ae071f76cfaa8b10d22365dc0821a\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6b3c81e21cf202d871e09d8dd269ad5c\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.5.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\15f0efbd1b9e401c403e181320e0999d\core-1.5.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\a2f4639862f3971de0211d73bb941eb5\core-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\8923716b00d9d60d078b43933d49e88b\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\9a9d5b32fcc0c91856c037ac074a1185\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\f1e202c62f69aa1ce07916da1cbaf086\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\026b895fc4fa8b51c8a846e47d50deb7\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\5179b901ac446ace28ec1ed92f2523c8\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\dd9faf2234c304f3bfc2170481c25f97\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\150774319f1ae9e628aef689ed8c0d60\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6497127689a4f266a6654d21c0441e93\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\3aecc0607e1d0f5e46fcf7d0563a522f\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\af5d7f43182e0fbc8a6e67e4c1b29af5\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\d45586444cac2973d82730f941da3223\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\d0d3da65ed66f6c45e2a1a1421c2e2a3\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\c7f16ef5253076883a34b363caaeb73f\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\97dbfe227641e5f2a06c0fa428b2d26c\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\2b001762c061fc8bb73ba3746baf41bd\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\b8db303d32483e7dc51bdeffeb4d0f7d\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\fb2e87b1a6c2ad54e3d5c91cb7cea679\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\030dc84730ae7a788a45e7a86ed8f6cb\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\52368a3591be9e7e6a5b7b2cdf9fa51e\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:2:1-28:12
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:2:1-28:12
@@ -77,8 +81,8 @@ INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:5:5-26:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\7417af9f76045e8f6283d2fc89751a8e\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\7417af9f76045e8f6283d2fc89751a8e\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\05b154e6d4cccaa40d95d7828420477a\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\05b154e6d4cccaa40d95d7828420477a\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1226483bc440a48175c3668501db5f9d\jetified-firebase-analytics-21.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1226483bc440a48175c3668501db5f9d\jetified-firebase-analytics-21.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\743b9a4c4f165c3007245de2fe4f55c1\jetified-firebase-auth-21.0.6\AndroidManifest.xml:26:5-71:19
@@ -117,12 +121,18 @@ MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\339b210bbe8434be4a46c243c8d29bea\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.core:core:1.5.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\15f0efbd1b9e401c403e181320e0999d\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\15f0efbd1b9e401c403e181320e0999d\core-1.5.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\a2f4639862f3971de0211d73bb941eb5\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\a2f4639862f3971de0211d73bb941eb5\core-1.7.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6497127689a4f266a6654d21c0441e93\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6497127689a4f266a6654d21c0441e93\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\3aecc0607e1d0f5e46fcf7d0563a522f\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\3aecc0607e1d0f5e46fcf7d0563a522f\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\15f0efbd1b9e401c403e181320e0999d\core-1.5.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\a2f4639862f3971de0211d73bb941eb5\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
@@ -136,35 +146,53 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PI
 	android:theme
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.piero.spiritguardians.LoginActivity
-ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:9-60
+ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:9-97
+	android:screenOrientation
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:49-85
 	android:name
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:12:19-48
 activity#com.piero.spiritguardians.RegisterActivity
-ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:9-54
+ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:9-90
+	android:screenOrientation
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:52-88
 	android:name
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:13:19-51
 activity#com.piero.spiritguardians.GameActivity
-ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:9-50
+ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:9-86
+	android:screenOrientation
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:48-84
 	android:name
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:14:19-47
 activity#com.piero.spiritguardians.DeckActivity
-ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:9-50
+ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:9-86
+	android:screenOrientation
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:48-84
 	android:name
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:15:19-47
 activity#com.piero.spiritguardians.CreateRoomActivity
-ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:9-56
+ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:9-92
+	android:screenOrientation
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:54-90
 	android:name
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:16:19-53
 activity#com.piero.spiritguardians.RoomsActivity
-ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:9-51
+ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:9-87
+	android:screenOrientation
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:49-85
 	android:name
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:17:19-48
 activity#com.piero.spiritguardians.StartMenu
-ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:9-47
+ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:9-84
+	android:screenOrientation
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:45-81
 	android:name
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:18:19-44
 activity#com.piero.spiritguardians.MainActivity
 ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:9-25:20
+	android:screenOrientation
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:48-84
+	android:exported
+		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:85-108
 	android:name
 		ADDED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
@@ -181,10 +209,10 @@ uses-sdk
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\7417af9f76045e8f6283d2fc89751a8e\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\7417af9f76045e8f6283d2fc89751a8e\constraintlayout-2.1.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\820a52f130244648f4d0301e279c6f91\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\820a52f130244648f4d0301e279c6f91\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\05b154e6d4cccaa40d95d7828420477a\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\05b154e6d4cccaa40d95d7828420477a\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\5e0b3f5d1f4c36d3d833eace6224d2ee\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\5e0b3f5d1f4c36d3d833eace6224d2ee\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1b5db68e042f83c55bf10b41732ba6c6\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1b5db68e042f83c55bf10b41732ba6c6\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1226483bc440a48175c3668501db5f9d\jetified-firebase-analytics-21.0.0\AndroidManifest.xml:5:5-44
@@ -237,10 +265,14 @@ MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\PIERO\.gradle\caches\tra
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\a0a02916a4c48e01b8ab9f746a9cba81\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\de970c8184b370aec5b6c40b5a9510e3\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\de970c8184b370aec5b6c40b5a9510e3\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\78eeda6c26c2428fdce491080c78f3f5\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\78eeda6c26c2428fdce491080c78f3f5\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6d63f0a0dc20437d769b11a53bc7cd99\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6d63f0a0dc20437d769b11a53bc7cd99\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6a950269d64b7a85ab62d27eb155f48e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6a950269d64b7a85ab62d27eb155f48e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\0e7a4d792a3eb01cb0ba0bc2bc34b735\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\0e7a4d792a3eb01cb0ba0bc2bc34b735\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ab116c7f5c3c01b8a3745d1af6e29c1d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\ab116c7f5c3c01b8a3745d1af6e29c1d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1051ea2d5da877791cc1022c53dcd9f9\customview-1.0.0\AndroidManifest.xml:20:5-44
@@ -255,16 +287,14 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\PIE
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\4a0ae071f76cfaa8b10d22365dc0821a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6b3c81e21cf202d871e09d8dd269ad5c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6b3c81e21cf202d871e09d8dd269ad5c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\15f0efbd1b9e401c403e181320e0999d\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\15f0efbd1b9e401c403e181320e0999d\core-1.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\a2f4639862f3971de0211d73bb941eb5\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\a2f4639862f3971de0211d73bb941eb5\core-1.7.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\8923716b00d9d60d078b43933d49e88b\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\8923716b00d9d60d078b43933d49e88b\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\9a9d5b32fcc0c91856c037ac074a1185\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\9a9d5b32fcc0c91856c037ac074a1185\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\f1e202c62f69aa1ce07916da1cbaf086\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\f1e202c62f69aa1ce07916da1cbaf086\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\026b895fc4fa8b51c8a846e47d50deb7\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\026b895fc4fa8b51c8a846e47d50deb7\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\5179b901ac446ace28ec1ed92f2523c8\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\5179b901ac446ace28ec1ed92f2523c8\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\dd9faf2234c304f3bfc2170481c25f97\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -273,12 +303,18 @@ MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\PIERO\.gra
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\150774319f1ae9e628aef689ed8c0d60\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6497127689a4f266a6654d21c0441e93\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\6497127689a4f266a6654d21c0441e93\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\3aecc0607e1d0f5e46fcf7d0563a522f\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\3aecc0607e1d0f5e46fcf7d0563a522f\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\af5d7f43182e0fbc8a6e67e4c1b29af5\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\af5d7f43182e0fbc8a6e67e4c1b29af5\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\d45586444cac2973d82730f941da3223\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\d45586444cac2973d82730f941da3223\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\d0d3da65ed66f6c45e2a1a1421c2e2a3\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\d0d3da65ed66f6c45e2a1a1421c2e2a3\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\c7f16ef5253076883a34b363caaeb73f\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\c7f16ef5253076883a34b363caaeb73f\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\97dbfe227641e5f2a06c0fa428b2d26c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\97dbfe227641e5f2a06c0fa428b2d26c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\2b001762c061fc8bb73ba3746baf41bd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
@@ -287,8 +323,8 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\PIERO\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\b8db303d32483e7dc51bdeffeb4d0f7d\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\fb2e87b1a6c2ad54e3d5c91cb7cea679\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\fb2e87b1a6c2ad54e3d5c91cb7cea679\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\030dc84730ae7a788a45e7a86ed8f6cb\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\030dc84730ae7a788a45e7a86ed8f6cb\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\52368a3591be9e7e6a5b7b2cdf9fa51e\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\52368a3591be9e7e6a5b7b2cdf9fa51e\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\PIERO\Documents\spirit-guardians-android\Spirit-Guardians\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -499,3 +535,29 @@ ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO
 		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\82d28fe7a581a6d91ecd327319042043\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\3aecc0607e1d0f5e46fcf7d0563a522f\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\3aecc0607e1d0f5e46fcf7d0563a522f\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\e2dae191883248b0100e775fcdcc217b\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PIERO\.gradle\caches\transforms-2\files-2.1\1499516b57a0bf8f199699692894c18e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
